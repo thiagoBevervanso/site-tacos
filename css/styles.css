@@ -1,0 +1,133 @@
+body{
+    background-image: linear-gradient(80deg, rgba(255, 0, 255, 0.747), rgb(90, 49, 236));
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+#botao{
+    text-align: center;
+    border-radius: 20%;
+}
+button{
+    background-color: rgb(255, 165, 29);
+    border: none;
+    width: 19%;
+    height: 20px;
+    cursor:pointer;
+    margin-top: 20px;
+    
+}
+.conteiner{ 
+ width:37%;
+ margin: 1px;
+ position:relative;
+ color: black; 
+}
+.conteiner img{   
+ width:193%;
+ height:200px;
+ float: left;
+ border-radius: 3%;
+}
+.centroesquerda{
+ position: absolute;
+ top: 60px;
+ left: 20px;
+ width: 130px;
+ transition: translate(-50%,-50%); 
+ text-align: center;
+ background-color: rgb(255, 165, 29);
+ padding: 10px;
+}
+.centrobaixo{
+    position: absolute;
+ top: 100px;
+ left: 20px;
+ width: 97px;
+ height: 5px;
+ 
+ transition: translate(-50%,-50%); 
+ text-align: center;
+ background-color: rgb(255, 165, 29);
+ padding: 10px;
+}
+#whiteButton{
+    background-color: whitesmoke;
+    border: none;
+    color: greenyellow;
+
+    width: 19%;
+    height: 98px;    
+}
+
+#ten{
+    position: relative;
+    width: 35px;
+    height: 35px; 
+    left: 15px;
+    text-align: center;
+}
+
+#textoS{
+    position: relative;
+    left: 17px; 
+    color: black;
+
+}
+
+#descricao{
+    position: relative;
+    left: 0px; 
+    color: blueviolet;   
+} 
+#pPanel{
+    position: relative;
+    left: -500px;
+    top: -1px;
+
+    width: 250px;
+    height: 200px;
+}
+#folha{
+    width: 97%;
+    height: 1160;
+    border: 1px solid white;
+    margin-top: 10px;
+    position: relative;
+    background-color: white;
+
+}
+
+.divider {
+    display: flex;
+  }
+  .divider:before, .divider:after {
+    content: "";
+    flex: 1;
+  }
+  
+  .line {
+    align-items: center;
+    margin: 1em -1em;
+  }
+  .line:before, .line:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+  
+
+.glow:before, .glow:after {
+    height: 6px;
+    
+    border-radius: 5px;
+  }
+  .glow:before {
+    background: linear-gradient(to right, rgba(255, 136, 0, 0.5), rgb(223, 122, 7));
+  }
+  .glow:after {
+    background: linear-gradient(to left,rgba(255, 136, 0, 0.356), rgb(223, 122, 7));
+  }
+
+  #imagens{
+    margin: 0px;
+  }
